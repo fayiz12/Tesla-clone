@@ -1,0 +1,89 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+
+nav
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 18px;
+    cursor: pointer;
+}
+.list-menu{
+    flex:1;
+    text-align: center;
+}
+.list-menu li{
+    display: inline-block;
+    margin:10px 20px;
+}
+.right-menu{
+    margin-right: 18px;
+    padding:10px;
+}
+.content{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -46%;
+
+}
+.buttons{
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 37%;
+}
+.but1{
+    padding: 10px 70px;
+    color: #fff;
+    background-color: rgba(77, 75, 75, 0.9);
+    border-radius: 5px;
+    border-width: 0;
+    margin-right: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.but2{
+    padding: 10px 70px;
+    color: rgba(77, 75, 75, 0.9);
+    background-color: transparent;
+    border-radius: 10px;
+    border-width: 4px;
+    font-weight: 700;
+    border-width: 0;
+    opacity: 5;
+    cursor: pointer;
+}
+.content-container{
+    
+    background-size: cover;
+}
+.image{
+    width:100%;
+}
+.content1{
+  margin-left: 40%;
+  margin-top:-44%;
+}
+.buttons1{
+    margin-left: 43%;
+    margin-top: 32%;
+}
+.list-last{
+    list-style-type: none;
+    display: flex;
+    margin-left:25%;
+}
+.list-type-last{
+    padding-right: 20px;
+}
